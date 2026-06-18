@@ -1,0 +1,99 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:linear-gradient(135deg,#081428,#102f6b);
+}
+
+.card{
+    width:380px;
+    background:rgba(18,22,45,0.85);
+    backdrop-filter:blur(15px);
+    border-radius:20px;
+    padding:25px;
+    color:white;
+    box-shadow:0 10px 30px rgba(0,0,0,0.5);
+}
+
+h1{
+    font-size:28px;
+}
+
+.role{
+    color:#b8b8b8;
+    margin-top:5px;
+}
+
+.company{
+    color:#7ab8ff;
+    margin-top:10px;
+}
+
+.tabs{
+    display:flex;
+    gap:10px;
+    margin-top:20px;
+}
+
+.tab{
+    flex:1;
+    border:none;
+    padding:10px;
+    border-radius:10px;
+    background:#1f2747;
+    color:white;
+    cursor:pointer;
+}
+
+.tab.active{
+    background:linear-gradient(90deg,#2d8cff,#a020f0);
+}
+
+.content{
+    display:none;
+    margin-top:20px;
+}
+
+.active-content{
+    display:block;
+}
+
+.info-box{
+    display:flex;
+    align-items:center;
+    gap:15px;
+    padding:14px;
+    background:#161d38;
+    margin-bottom:12px;
+    border-radius:12px;
+}
+
+.info-box i{
+    color:#67d4ff;
+    font-size:18px;
+}
+
+.info-box small{
+    color:#8f9ab8;
+}
+
+.connect-btn{
+    width:100%;
+    margin-top:20px;
+    border:none;
+    padding:14px;
+    border-radius:12px;
+    color:white;
+    font-weight:600;
+    cursor:pointer;
+    background:linear-gradient(90deg,#2d8cff,#a020f0);
+    box-shadow:0 0 20px rgba(160,32,240,.4);
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Profile Card</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+<div class="container">
+
+    <div class="card">
+
+        <h1>Deenadhayalan</h1>
+        <p class="role">Senior Teacher & Educator</p>
+        <p class="company">🏢 Adroit Technologies</p>
+
+        <div class="tabs">
+            <button class="tab active" onclick="showTab('about')">About</button>
+            <button class="tab" onclick="showTab('skills')">Skills</button>
+            <button class="tab" onclick="showTab('contact')">Contact</button>
+        </div>
+
+        <div id="about" class="content active-content">
+            <div class="info-box">
+                <i class="fas fa-globe"></i>
+                <div>
+                    <small>WEBSITE</small>
+                    <p>adroittechnologies.in</p>
+                </div>
+            </div>
+
+            <div class="info-box">
+                <i class="fas fa-envelope"></i>
+                <div>
+                    <small>EMAIL</small>
+                    <p>deena@gmail.com</p>
+                </div>
+            </div>
+
+            <div class="info-box">
+                <i class="fas fa-phone"></i>
+                <div>
+                    <small>PHONE</small>
+                    <p>9597348339</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="skills" class="content">
+            <p>✔ HTML</p>
+            <p>✔ CSS</p>
+            <p>✔ JavaScript</p>
+            <p>✔ React</p>
+        </div>
+
+        <div id="contact" class="content">
+            <p>📧 deena@gmail.com</p>
+            <p>📱 9597348339</p>
+        </div>
+
+        <button class="connect-btn">
+            ✨ Connect with Me
+        </button>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
